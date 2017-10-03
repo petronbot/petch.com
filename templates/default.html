@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Yeah</title>
+    <!-- <link href="<%= assetsPath %>/style.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <h1>Petch</h1>
+    <!--  Programming skill & deep contextual understanding of business problems -->
+    <ul>
+      <% timeline.forEach(milestone => { %>
+        <li><%- milestone.year %>: <%- milestone.label %></li>
+      <% }); %>
+    </ul>
+    <script src="<%= process.env.BROWSER_REFRESH_URL %>"></script>
+  </body>
+</html>
