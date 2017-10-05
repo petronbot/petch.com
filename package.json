@@ -4,18 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "browser-refresh .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hapi": "^16.6.2",
-    "inert": "^4.2.1",
-    "lodash": "^4.17.4",
-    "rill": "^5.0.15"
+    "next": "^4.0.0-beta.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
-  "devDependencies": {
-    "browser-refresh": "^1.7.2"
+  "browser": {
+    "node-fetch": false
   }
 }
