@@ -1,4 +1,6 @@
-import fetch from 'node-fetch';
+import fetch from 'node-fetch'
+
+import styles from './styles.js'
 
 import Head from 'next/head'
 import Timeline from './../parts/timeline'
@@ -16,14 +18,14 @@ const data = [
     year: 2017,
     label: '6 month contract with Scentre Groups\'s website team'
   }
-];
+]
 
 const Page = ({ stars }) =>
   <div>
+    <style jsx>{styles}</style>
     <Head>
       <title>My page title</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <link rel="stylesheet" href="/static/style.css" />
     </Head>
     <Timeline markers={data} />
     <p>{stars}</p>

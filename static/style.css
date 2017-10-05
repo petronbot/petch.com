@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
-
 body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
@@ -21,23 +20,4 @@ body {
 
 h1, h2, h3, h4, h5, th {
   font-weight: bolder;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-li {
-  margin-top: 0;
-  padding: .5em
-}
-
-li:nth-child(even) {
-  background-color: wheat;
-}
-
-li:nth-child(odd) {
-  background-color: pink;
 }

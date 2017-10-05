@@ -1,4 +1,13 @@
+import styles from './styles.js'
+
 export default ({ markers }) =>
-  markers.map((marker, index) =>
-    <p key={index}>{marker.year}: {marker.label}</p>
-  )
+(
+  <div>
+    <style jsx>{styles}</style>
+    {
+      markers.map((marker, index) => {
+        return <p key={index}>{marker.year}: {marker.label}</p>
+      })
+    }
+  </div>
+)

@@ -1,25 +1,32 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = require("react");
+var _style = require('styled-jsx/style.js');
+
+var _style2 = _interopRequireDefault(_style);
+
+var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _styles = require('./styles.js');
 
-var _jsxFileName = "/Users/petragulicher/Development/petch/parts/timeline/index.js";
+var _styles2 = _interopRequireDefault(_styles);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function (_ref) {
   var markers = _ref.markers;
-  return markers.map(function (marker, index) {
-    return _react2.default.createElement("p", { key: index, __source: {
-        fileName: _jsxFileName,
-        lineNumber: 3
-      }
-    }, marker.year, ": ", marker.label);
-  });
+  return _react2.default.createElement('div', {
+    'data-jsx-ext': _styles2.default.__scopedHash
+  }, _react2.default.createElement(_style2.default, {
+    styleId: _styles2.default.__scopedHash,
+    css: _styles2.default.__scoped
+  }), markers.map(function (marker, index) {
+    return _react2.default.createElement('p', { key: index, 'data-jsx-ext': _styles2.default.__scopedHash
+    }, marker.year, ': ', marker.label);
+  }));
 };
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhcnRzL3RpbWVsaW5lL2luZGV4LmpzIl0sIm5hbWVzIjpbIm1hcmtlcnMiLCJtYXAiLCJtYXJrZXIiLCJpbmRleCIsInllYXIiLCJsYWJlbCJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7Ozs7O2tCQUFlLGdCQUFBO01BQUEsQUFBRyxlQUFILEFBQUc7aUJBQ2hCLEFBQVEsSUFBSSxVQUFBLEFBQUMsUUFBRCxBQUFTLE9BQVQ7MkJBQ1YsY0FBQSxPQUFHLEtBQUgsQUFBUTtrQkFBUjtvQkFBQSxBQUFnQjtBQUFoQjtLQUFBLFNBQUEsQUFBdUIsTUFBUSxhQURyQixBQUNWLEFBQXNDO0FBRjNCLEFBQ2IsR0FBQTtBQURGIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9wZXRyYWd1bGljaGVyL0RldmVsb3BtZW50L3BldGNoIn0=
