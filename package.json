@@ -9,7 +9,7 @@
     "start": "next start",
     "heroku-postbuild": "next build"
   },
-  "engine": {
+  "engines": {
     "node": "8.1.x"
   },
   "author": "",
