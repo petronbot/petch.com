@@ -9,6 +9,9 @@
     "start": "next start",
     "heroku-postbuild": "next build"
   },
+  "engine": {
+    "node": "8.1.x"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
