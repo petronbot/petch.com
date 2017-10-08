@@ -51,9 +51,9 @@ const Page = ({ stars }) =>
     <h1 className='title'>Petra Gulicher - Web Developer</h1>
     <p>Full stack web developer from Sydney, Australia. Experience in leading technical teams and scrum coaching. Combining 10 years of professional experience and continuous learning in web technologies.</p>
     <ul className='links'>
-      <li><a href='mailto:p.gulicher@gmail.com'><i class="material-icons">perm_identity</i>Email</a></li>
-      <li><a href='https://github.com/petronbot'><i class="material-icons">code</i>GitHub</a></li>
-      <li><a href='http://twitter.com/petronbot'><i class="material-icons">chat_bubble_outline</i>Twitter</a></li>
+      <li><a href='mailto:p.gulicher@gmail.com'><i className="material-icons">perm_identity</i>Email</a></li>
+      <li><a href='https://github.com/petronbot'><i className="material-icons">code</i>GitHub</a></li>
+      <li><a href='http://twitter.com/petronbot'><i className="material-icons">chat_bubble_outline</i>Twitter</a></li>
     </ul>
     <Timeline markers={data} />
     <footer className='footer'>
