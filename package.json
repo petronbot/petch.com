@@ -7,9 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "prestart": "next build",
-    "heroku-postbuild": "next build",
-    "export": "next export && touch ./out/.nojekyll"
+    "export": "next export"
   },
   "engines": {
     "node": "8.1.x"

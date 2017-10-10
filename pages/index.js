@@ -44,7 +44,7 @@ const Page = ({ stars }) =>
   <div>
     <style jsx global>{styles}</style>
     <Head>
-      <title>My page title</title>
+      <title>Petra Gulicher - Web Developer</title>
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     </Head>
