@@ -39,6 +39,12 @@ const StyledLinks = styled.ul`
 export default () => (
   <StyledLinks>
     <li>
+      <a className="secondary" href="/talks">
+        Talks &amp; slides
+      </a>
+    </li>
+    <li>Or contact me:</li>
+    <li>
       <a href="mailto:p.gulicher@gmail.com">
         <i className="material-icons">perm_identity</i>Email
       </a>
@@ -51,11 +57,6 @@ export default () => (
     <li>
       <a href="http://twitter.com/petronbot">
         <i className="material-icons">chat_bubble_outline</i>Twitter
-      </a>
-    </li>
-    <li>
-      <a className="secondary" href="/slides">
-        Slides
       </a>
     </li>
   </StyledLinks>
