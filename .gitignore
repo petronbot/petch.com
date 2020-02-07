@@ -1,5 +1,6 @@
 npm-debug.log
 
+.firebase/
 .next/
 node_modules/
 out/
