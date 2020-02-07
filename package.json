@@ -26,6 +26,6 @@
     "node-fetch": false
   },
   "devDependencies": {
-    "firebase": "^4.6.2"
+    "firebase-tools": "^7.12.1"
   }
 }
