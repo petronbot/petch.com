@@ -30,5 +30,17 @@ export default [
   {
     year: 2017,
     label: 'Joined Scentre Groups\'s website team'
+  },
+  {
+    year: 2018,
+    label: 'Seconded to Scentre Group\'s Innovation team'
+  },
+  {
+    year: 2019,
+    label: 'Spent 6 months working on React Native apps with Thinkmill'
+  },
+  {
+    year: 2020,
+    label: 'Joined the ABC\'s Digital Products team'
   }
 ]
