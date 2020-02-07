@@ -10,7 +10,7 @@ const StyledFooter = styled.footer`
 export default () => (
   <StyledFooter>
     <small>
-      <a href="/">Home</a> | <a href="/slides">Slides</a>
+      <a href="/">Home</a> | <a href="/talks">Talks</a>
       <br />
       Made with <a href="https://github.com/zeit/next.js/">Next.js</a>.
     </small>

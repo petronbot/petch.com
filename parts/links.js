@@ -54,8 +54,8 @@ export default () => (
       </a>
     </li>
     <li>
-      <a className="secondary" href="/slides">
-        Slides
+      <a className="secondary" href="/talks">
+        Talks
       </a>
     </li>
   </StyledLinks>
