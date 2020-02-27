@@ -3,6 +3,9 @@ module.exports = {
     return {
       "/": { page: "/" },
       "/talks": { page: "/talks" },
+      "/talks/a-graphql-survival-kit": {
+        page: "/talks/a-graphql-survival-kit"
+      },
       "/talks/building-a-style-guide-for-all-australians": {
         page: "/talks/building-a-style-guide-for-all-australians"
       },

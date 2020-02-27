@@ -5,6 +5,13 @@ export default () => (
     <h2>Talks</h2>
     <ul>
       <li>
+        <a href="/talks/a-graphql-survival-kit">
+          A GraphQL Survival Kit
+        </a>
+        <br />
+        <em>ReactConfAU, February 2020</em>
+      </li>
+      <li>
         <a href="/talks/css-custom-properties">
           CSS Custom Properties
         </a>
