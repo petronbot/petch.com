@@ -1,5 +1,5 @@
 import Page from "../../parts/page";
-import SlidesEmbed from "../../parts/slides-embed";
+import YouTubeEmbed from "../../parts/youtube-embed";
 import StyledQuote from "../../parts/quote";
 
 export default () => (
@@ -7,7 +7,8 @@ export default () => (
     <h2>A GraphQL Survival Kit</h2>
     <h3>Presented at ReactConfAU 2020</h3>
     <p>GraphQL lets us model our business domain as a graph, but what does that mean? What are the tools we need to design a model that works for our business, products and users both now and into the future? Let's take a deep dive into the language, concepts and building blocks of a successful domain graph, and learn how to how to shape your React architecture with GraphQL for better developer experience, easier scaling and faster iterations on your user experience.</p>
-    <SlidesEmbed src="https://docs.google.com/presentation/d/e/2PACX-1vSjwSJ0vpej1KbMOx90W4BYwGNGJiYi7_j2ECFgHLtlXGKKv4JxlEFFPcuFigQ0MHe56Co-uPJLMGIu/embed?start=false&loop=false&delayms=3000"></SlidesEmbed>
+    <p><a href="https://docs.google.com/presentation/d/e/2PACX-1vTKw-eMefmZabxSkbM3EstuGhJda7JEefwwfZnbvp64KPTjGOnVJLxsX77SHCH7ok2kBwnsUe4R9AEe/pub?start=false&loop=false&delayms=3000">View the slides on Google Docs</a></p>
+    <YouTubeEmbed src="https://www.youtube.com/watch?v=tF8Bu7HaP0Q" />
     <h3>Inspiration</h3>
     <p>This presentation was pulled together off the back of my own learning and experience as well as a wealth of knowledge in the community.</p>
     <p>This list is not exhaustive, but I hope it captures some of the principles inspiring my ideas.</p>

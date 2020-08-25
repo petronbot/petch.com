@@ -20,6 +20,12 @@ module.exports = {
       },
       "/talks/ml-and-ai-in-javascript": {
         page: "/talks/ml-and-ai-in-javascript"
+      },
+      "/talks/scaling-design-systems": {
+        page: "/talks/scaling-design-systems"
+      },
+      "/talks/styling-in-react-native": {
+        page: "/talks/styling-in-react-native"
       }
     };
   }

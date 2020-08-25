@@ -12,11 +12,25 @@ export default () => (
         <em>ReactConfAU, February 2020</em>
       </li>
       <li>
+        <a href="/talks/styling-in-react-native">
+          Styling in React Native
+        </a>
+        <br />
+        <em>React Sydney, August 2019</em>
+      </li>
+      <li>
         <a href="/talks/css-custom-properties">
           CSS Custom Properties
         </a>
         <br />
         <em>SydCSS Wheel of Talks, December 2018</em>
+      </li>
+      <li>
+        <a href="/talks/scaling-design-systems">
+          Panel: Challenges of scaling a design system
+        </a>
+        <br />
+        <em>Design Systems Sydney, May 2018</em>
       </li>
       <li>
         <a href="/talks/ml-and-ai-in-javascript">
