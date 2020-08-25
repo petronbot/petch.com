@@ -1,5 +1,5 @@
 import Page from "../../parts/page";
-import YouTubeEmbed from "../../parts/youtube-embed";
+import SlidesEmbed from "./../../parts/slides-embed";
 
 export default () => (
   <Page>
