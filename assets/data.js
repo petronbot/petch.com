@@ -1,7 +1,7 @@
 export default [
   {
     year: 2000,
-    label: 'Launched first ever website via floppy disk'
+    label: 'Launched first website via floppy disk'
   },
   {
     year: 2005,
@@ -21,7 +21,7 @@ export default [
   },
   {
     year: 2015,
-    label: 'Joined the Fampany at ustwo'
+    label: 'Became a Product Engineer at ustwo'
   },
   {
     year: 2016,
@@ -29,7 +29,7 @@ export default [
   },
   {
     year: 2017,
-    label: 'Joined Scentre Groups\'s website team'
+    label: 'Joined Scentre Groups\'s website team as front-end tech lead'
   },
   {
     year: 2018,
@@ -37,10 +37,10 @@ export default [
   },
   {
     year: 2019,
-    label: 'Spent 6 months working on React Native apps with Thinkmill'
+    label: 'Developed a suite of mobile applications with Reckon and Thinkmill'
   },
   {
     year: 2020,
-    label: 'Joined the ABC\'s Digital Products team'
+    label: 'Joined the ABC\'s Digital Products team as a Solution Architect'
   }
 ]

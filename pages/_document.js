@@ -5,10 +5,13 @@ injectGlobal`
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin: 0;
-    padding: 1em 2em;
     background-color: #EFEFEF;
     font-size: 4.5vw;
     line-height: 1.35;
+
+    * + * {
+      margin-top: 1em;
+    }
 
     @media (min-width: 30em) {
       font-size: 24px;
@@ -21,6 +24,10 @@ injectGlobal`
   i {
     vertical-align: bottom;
     margin-right: .3em;
+  }
+
+  a {
+    color: currentColor;
   }
 `;
 

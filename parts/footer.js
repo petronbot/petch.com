@@ -1,18 +1,21 @@
 import styled from "styled-components";
 
+import Links from "./../parts/links";
+
 const StyledFooter = styled.footer`
-  margin: 2em 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  padding-top: 0.5em;
-  font-size: 75%;
+  padding: 1em 2em;
+
+  p {
+    font-size: 75%;
+  }
+  
 `;
 
 export default () => (
   <StyledFooter>
-    <small>
-      <a href="/">Home</a> | <a href="/talks">Talks</a>
-      <br />
+    <Links />
+    <p>
       Made with <a href="https://github.com/zeit/next.js/">Next.js</a>.
-    </small>
+    </p>
   </StyledFooter>
 );

@@ -8,7 +8,7 @@ export default () => {
   return (
     <Page>
       <p>
-        Full stack web developer from Sydney, Australia. Experience in leading
+        Full stack <strong>web developer</strong>, <strong>tech lead</strong> and <strong>architect</strong> from Sydney, Australia. Experience in leading
         technical teams and scrum coaching. Combining 10 years of professional
         experience and continuous learning in web technologies.
       </p>

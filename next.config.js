@@ -2,30 +2,30 @@ module.exports = {
   exportPathMap: function () {
     return {
       "/": { page: "/" },
-      "/talks": { page: "/talks" },
-      "/talks/a-graphql-survival-kit": {
-        page: "/talks/a-graphql-survival-kit"
+      "/speaking": { page: "/speaking" },
+      "/speaking/a-graphql-survival-kit": {
+        page: "/speaking/a-graphql-survival-kit"
       },
-      "/talks/building-a-style-guide-for-all-australians": {
-        page: "/talks/building-a-style-guide-for-all-australians"
+      "/speaking/building-a-style-guide-for-all-australians": {
+        page: "/speaking/building-a-style-guide-for-all-australians"
       },
-      "/talks/challenges-of-scaling-design-systems": {
-        page: "/talks/challenges-of-scaling-design-systems"
+      "/speaking/challenges-of-scaling-design-systems": {
+        page: "/speaking/challenges-of-scaling-design-systems"
       },
-      "/talks/css-custom-properties": {
-        page: "/talks/css-custom-properties"
+      "/speaking/css-custom-properties": {
+        page: "/speaking/css-custom-properties"
       },
-      "/talks/fe-testing": {
-        page: "/talks/fe-testing"
+      "/speaking/fe-testing": {
+        page: "/speaking/fe-testing"
       },
-      "/talks/ml-and-ai-in-javascript": {
-        page: "/talks/ml-and-ai-in-javascript"
+      "/speaking/ml-and-ai-in-javascript": {
+        page: "/speaking/ml-and-ai-in-javascript"
       },
-      "/talks/scaling-design-systems": {
-        page: "/talks/scaling-design-systems"
+      "/speaking/scaling-design-systems": {
+        page: "/speaking/scaling-design-systems"
       },
-      "/talks/styling-in-react-native": {
-        page: "/talks/styling-in-react-native"
+      "/speaking/styling-in-react-native": {
+        page: "/speaking/styling-in-react-native"
       }
     };
   }
