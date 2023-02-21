@@ -1,5 +1,5 @@
-import Page from "../../parts/page";
-import SlidesEmbed from "./../../parts/slides-embed";
+import Page from "../../components/page";
+import SlidesEmbed from "./../../components/slides-embed";
 
 export default () => (
   <Page>

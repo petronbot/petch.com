@@ -1,5 +1,5 @@
-import Page from "../../parts/page";
-import YouTubeEmbed from "../../parts/youtube-embed";
+import Page from "../../components/page";
+import YouTubeEmbed from "../../components/youtube-embed";
 
 export default () => (
   <Page>
