@@ -6,6 +6,11 @@ export default function Talks() {
       <h2>Talks</h2>
       <ul>
         <li>
+          <a href="/talks/rethinking-ugc">Rethinking UGC at the ABC</a>
+          <br />
+          <em>UX Australia, August 2021</em>
+        </li>
+        <li>
           <a href="/talks/a-graphql-survival-kit">A GraphQL Survival Kit</a>
           <br />
           <em>ReactConfAU, February 2020</em>

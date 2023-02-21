@@ -8,6 +8,7 @@ export default () => (
     <li>
       <Link href="/talks">Talks</Link>
     </li>
+    <li>/</li>
     <li>
       <Link href="mailto:petra@gulicher.com">Email</Link>
     </li>

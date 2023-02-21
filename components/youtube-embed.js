@@ -1,6 +1,6 @@
 export default ({ src }) => (
   <iframe
-    className="video"
+    className="embed"
     src={src}
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen

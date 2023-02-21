@@ -14,9 +14,10 @@ export default function Home() {
         loved brands across consulting, agency & principal roles.
       </p>
       <p>
-        Specialising in human-first technology, values-led product development
-        and making complex systems approachable. I can translate tech speak into
-        clear and actionable steps for my teams.
+        Specialising in <strong>human-first technology</strong>,{" "}
+        <strong>values-led product development</strong>
+        and <strong>making complex systems approachable</strong>. I can
+        translate tech speak into clear and actionable steps for my teams.
       </p>
       <p>Want more buzz-words? I've got you:</p>
       <ul>
@@ -29,7 +30,7 @@ export default function Home() {
         <li>Product development to grow a vision into reality</li>
         <li>Security, governance & data privacy</li>
       </ul>
-      <h2>Experience</h2>
+      <h3>A brief history</h3>
       <Timeline markers={markerData} />
     </Page>
   );
