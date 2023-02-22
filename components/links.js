@@ -6,17 +6,14 @@ export default () => (
       <Link href="/">Home</Link>
     </li>
     <li>
-      <Link href="/talks">Talks</Link>
+      <Link href="/talks.html">Talks</Link>
     </li>
     <li>/</li>
     <li>
-      <Link href="mailto:petra@gulicher.com">Email</Link>
+      <Link href="mailto:petra@gulicher.com">Email &rarr;</Link>
     </li>
     <li>
-      <Link href="https://github.com/petronbot">GitHub</Link>
-    </li>
-    <li>
-      <Link href="http://twitter.com/petronbot">Twitter</Link>
+      <Link href="https://github.com/petronbot">GitHub &rarr;</Link>
     </li>
   </ul>
 );

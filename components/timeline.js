@@ -2,17 +2,20 @@ import styled from "styled-components";
 
 export default ({ markers }) => (
   <div className="timeline">
-    {markers.map((marker, i) => {
-      const color = `rgba(
+    {markers.reverse().map((marker, i) => {
+      const rowStyles = {
+        color: `rgba(
             72,
             65,
-            190, ${i / markers.length / 3 + 0.65}`;
+            190, ${i / markers.length / 3 + 0.65})`,
+        fontWeight: !!marker.highlight ? "bold" : "normal",
+      };
       const backgroundColor = `hsla(0, 0%, ${100 - i * 2}%)`;
       return (
         <div
           className="timeline-row"
           key={`timeline-row-${i}`}
-          style={{ color }}
+          style={rowStyles}
         >
           <dt
             style={{

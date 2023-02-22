@@ -9,19 +9,32 @@ export default [
   },
   {
     year: 2007,
-    label: "Started as Web Editor at the Law Society of New South Wales",
+    label: "Law Society of New South Wales - Web Editor",
+    highlight: true,
   },
   {
     year: 2011,
-    label: "Joined Tipping Point as Front End Developer",
+    label: "Tipping Point - Front End Developer",
+    highlight: true,
   },
   {
     year: 2013,
-    label: "Creative Developer at The Monkeys",
+    label: "The Monkeys - Creative Developer",
+    highlight: true,
+  },
+  {
+    year: 2016,
+    label:
+      "Won a Webby Award for my work on University of Sydney's 'Project Here'",
+  },
+  {
+    year: 2016,
+    label: "Spoke about the DTA Design Guide at CSSConf in Melbourne",
   },
   {
     year: 2015,
-    label: "Became a Product Engineer at ustwo",
+    label: "ustwo - Product Engineer",
+    highlight: true,
   },
   {
     year: 2016,
@@ -29,7 +42,8 @@ export default [
   },
   {
     year: 2017,
-    label: "Joined Scentre Groups's website team as front-end tech lead",
+    label: "Scentre Groups - Digital Tech Lead",
+    highlight: true,
   },
   {
     year: 2018,
@@ -37,10 +51,22 @@ export default [
   },
   {
     year: 2019,
-    label: "Developed a suite of mobile applications with Reckon and Thinkmill",
+    label: "Thinkmill - Architect",
+    highlight: true,
+  },
+  {
+    year: 2019,
+    label:
+      "Built & released a suite of mobile accounting applications for Reckon",
   },
   {
     year: 2020,
-    label: "Joined the ABC's Digital Products team as a Solution Architect",
+    label: "ABC Digital Product - Solutions Architect",
+    highlight: true,
+  },
+  {
+    year: 2021,
+    label:
+      "Presented with Scott Burns about our work on audience collaborations at ABC",
   },
 ];
