@@ -15,9 +15,9 @@ export default function Home() {
       </p>
       <p>
         Specialising in <strong>human-first technology</strong>,{" "}
-        <strong>values-led product development</strong>
-        and <strong>making complex systems approachable</strong>. I can
-        translate tech speak into clear and actionable steps for my teams.
+        <strong>values-led product development</strong>, and{" "}
+        <strong>making complex systems approachable</strong>. I can translate
+        tech speak into clear and actionable steps for my teams.
       </p>
       <p>Want more buzz-words? I've got you:</p>
       <ul>
