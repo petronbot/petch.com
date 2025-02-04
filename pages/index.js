@@ -21,10 +21,9 @@ export default function Home() {
       </p>
       <p>Want more buzz-words? I've got you:</p>
       <ul>
-        <li>Cloud development for scale</li>
-        <li>
-          Systems design that strikes a balance between cost, time & quality
-        </li>
+        <li>Leadership in high-performing, self-organising, cross-functional agile teams</li>
+        <li>Cloud development for scale, performance & cost efficiency</li>
+        <li>Systems design that meets business and user needs</li>
         <li>TypeScript, Node.js, JavaScript, Python, Go, etc</li>
         <li>Continuous improvement to help teams reach high-performance</li>
         <li>Product development to grow a vision into reality</li>

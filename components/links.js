@@ -8,12 +8,14 @@ export default () => (
     <li>
       <Link href="/talks.html">Talks</Link>
     </li>
-    <li>/</li>
     <li>
-      <Link href="mailto:petra@gulicher.com">Email &rarr;</Link>
+      <Link href="mailto:petra@gulicher.com" className="external">Email &#8599;</Link>
     </li>
     <li>
-      <Link href="https://github.com/petronbot">GitHub &rarr;</Link>
+      <Link href="https://github.com/petronbot" className="external">GitHub &#8599;</Link>
+    </li>
+    <li>
+      <Link href="https://www.linkedin.com/in/petragulicher/" className="external">LinkedIn &#8599;</Link>
     </li>
   </ul>
 );

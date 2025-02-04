@@ -47,7 +47,7 @@ export default [
   },
   {
     year: 2018,
-    label: "Seconded to Scentre Group's Innovation team",
+    label: "Seconded to Scentre Group's Innovation team to develop and incubate emerging ventures",
   },
   {
     year: 2019,
@@ -67,6 +67,11 @@ export default [
   {
     year: 2021,
     label:
-      "Presented with Scott Burns about our work on audience collaborations at ABC",
+      "Presented at UX Australia with Scott Burns about our work on audience collaborations at ABC",
   },
-];
+  {
+    year: 2024,
+    label: "ABC Content Management - Team Lead, Digital Archive",
+    highlight: true,
+  }
+]

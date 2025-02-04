@@ -3,9 +3,9 @@ export default () => (
     <h1>
       Hi - I'm Petra Gulicher (aka Petch):
       <br />
-      <span>Solutions Architect</span>,
+      <span>Tech Leader</span>,
       <br />
-      <span>Tech Leader</span>, &
+      <span>Solutions Architect</span>, &
       <br />
       <span>People-Person</span>.
     </h1>
